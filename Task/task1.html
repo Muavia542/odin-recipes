@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1</title>
+
+    <!-- CSS -->
+     <style>
+        .posts.highlighted{
+            color: yellow;
+            background-color: black;
+        }
+
+        .posts span{
+            font-weight: bold;
+        }
+     </style>
+</head>
+<body>
+    <a href="../index.html">HOME</a>
+    <h1>
+        The Challenge
+Your goal is to write two CSS rules based on these requirements:
+Chaining: Target the div that has both the classes post and highlighted and give it a background-color: yellow;.
+Descendant: Target the span that is inside the post and make its font-weight: bold;.
+    </h1>
+    <div class="posts highlighted">
+        This is an example of Chaining Selectors
+    </div>
+    <div class="posts">
+        <p>This is the normal post with a <span>Standard tag</span></p>
+    </div>
+</body>
+</html>
